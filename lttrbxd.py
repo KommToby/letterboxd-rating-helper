@@ -51,7 +51,8 @@ class Films:
         return rating_dict.get(rating, 0)
 
     def get_movie_posters(self):
-        url = f"https://www.letterboxd.com/kommtoby/films"
+        username = self.get_config()["username"]
+        url = f"https://www.letterboxd.com/{username}/films"
         # we have to use selenium because the poster is loaded in with javascript
         options = webdriver.ChromeOptions()
         # Does not open the browser on the users pc
