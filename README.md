@@ -6,3 +6,7 @@ This uses a simple web scraper to get the movies you have watched from your lett
 1. Fill in your letterboxd username into config.json so the script knows which user to check
 2. Install the requirements using `pip install -r requirements.txt`
 3. Run the script (main.py)
+
+# Requirements
+- All packages in requirements.txt
+- Google Chrome Web Browser
